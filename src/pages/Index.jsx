@@ -1,11 +1,12 @@
 import React from 'react';
+import Layout from '../components/Layout';
 import HomePage from '../components/HomePage';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <Layout>
       <HomePage />
-    </div>
+    </Layout>
   );
 };
 
